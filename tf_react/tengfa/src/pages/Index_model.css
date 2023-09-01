@@ -1,0 +1,577 @@
+.index-body {
+    margin-top: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.index-body .Loding {
+    text-align: center;
+    padding: 500px;
+}
+
+.body-bg {
+    width: 100%;
+    height: 300px;
+    background: url(https://www.tf2sc.cn/static/img/%E8%93%9D%E8%89%B2%E8%83%8C%E6%99%AF.png) no-repeat;
+    background-position: 50%;
+}
+
+.body-search {
+    position: absolute;
+    z-index: 1;
+    top: 73px;
+    width: 100%;
+}
+
+.search {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.body-car-img {
+    position: absolute;
+    top: -24px;
+    right: -28px;
+    width: 420px;
+    height: 229px;
+    z-index: 3;
+}
+
+.search-gd {
+    margin-bottom: 20px;
+    font-family: pmzd;
+    line-height: 50px;
+    font-size: 40px;
+    /* color: #F5CC4F; */
+    background-image: -webkit-linear-gradient(top, #f9edd5, #f5cb4f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search-sr {
+    width: 640px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.search-input {
+    margin-left: 20px;
+    width: 490px;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+
+.search-btn {
+    width: 116px;
+    height: 100%;
+    background: #5685fe;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #f0f0f0;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    outline: none;
+    -webkit-user-select: text !important;
+}
+
+.buy-sell {
+    width: 1200px;
+    height: 301px;
+    background: #ffffff;
+    box-shadow: 0px 2px 20px 0px rgba(170, 170, 216, 0.4);
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sell {
+    width: 586px;
+    height: auto;
+}
+
+.buy-title {
+    display: flex;
+    align-items: center;
+}
+
+.search-line {
+    width: 10px;
+    height: 30px;
+    background: #5685fe;
+}
+
+.title-text {
+    line-height: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.sell-container {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-gz {
+    width: 330px;
+    height: 56px;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px 0px rgba(170, 170, 216, 0.4);
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.gz-line {
+    width: 1px;
+    height: 29px;
+    background: #d8e3ff;
+}
+
+.gz-link {
+    display: flex;
+    align-items: center;
+    width: 164px;
+    justify-content: center;
+}
+
+.gz-line img {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.container-input {
+    width: 330px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.container-input input {
+    height: 100%;
+    width: 200px;
+    border: none;
+}
+
+.container-input button {
+    width: 96px;
+    height: 40px;
+    background: #5685fe;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #f0f0f0;
+    color: #ffffff;
+}
+
+.buy-title {
+    display: flex;
+    align-items: center;
+}
+
+.search-line {
+    width: 10px;
+    height: 30px;
+    background: #5685fe;
+}
+
+.title-text {
+    line-height: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.buy-search {
+    margin-left: 40px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.search-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.div-brand {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.div-brand img {
+    width: 29px;
+    height: 30px;
+    margin-right: 12px;
+}
+
+.div-price {
+    width: 90px;
+    height: 34px;
+    background: #f5f7fe;
+    border-radius: 17px;
+    line-height: 34px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.body-car-img {
+    position: absolute;
+    top: -24px;
+    right: -28px;
+    width: 420px;
+    height: 229px;
+    z-index: 3;
+}
+
+.search-sr {
+    width: 640px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.search-input {
+    margin-left: 20px;
+    width: 490px;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+
+.search-btn {
+    width: 116px;
+    height: 100%;
+    background: #5685fe;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #f0f0f0;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.container-input input {
+    height: 100%;
+    width: 200px;
+    border: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input {
+    border: none;
+    outline: none;
+    -webkit-user-select: text !important;
+}
+
+.container-input button {
+    width: 96px;
+    height: 40px;
+    background: #5685fe;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #f0f0f0;
+    color: #ffffff;
+}
+
+.body-car {
+    padding-top: 320px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background: #f9f9f9;
+}
+
+.car-list {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.list-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-left {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #666666;
+}
+
+.search-line {
+    width: 10px;
+    height: 30px;
+    background: #5685fe;
+}
+
+.title-text {
+    line-height: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.list-left {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #666666;
+}
+
+.list {
+    padding: 30px 0 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-item {
+    display: block;
+    width: 277px;
+    height: 358px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #f5f7fe;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.list-item-img {
+    width: 275px;
+    height: 208px;
+    position: relative;
+}
+
+.list-item-img img {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.type-or {
+    background: linear-gradient(90deg, #ff8856 0%, #ff4725 100%);
+}
+
+.item-type {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 12px;
+    width: 64px;
+    height: 20px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.item-info {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.item-info-title {
+    width: 257px;
+    line-height: 26px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.item-info-time {
+    font-size: 14px;
+    color: #999999;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.item-info-price {
+    display: flex;
+    align-items: center;
+    color: #e73424;
+    font-size: 12px;
+}
+
+.price1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.new-item:nth-child(2n-1) {
+    margin-right: 30px;
+}
+
+.new-item {
+    width: 584px;
+    height: 106px;
+    font-size: 12px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #f5f7fe;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.new-item-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.new-item-title {
+    width: 349px;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333333;
+}
+
+.new-price1 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #e73424;
+}
+
+.item-info2 {
+    color: #999999;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.new-info-sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    height: 20px;
+    background: linear-gradient(90deg, #5f98f6 0%, #2e68eb 100%);
+    border-radius: 3px;
+    color: #ffffff;
+    margin-right: 16px;
+}
+
+.new-info-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    height: 20px;
+    background: #f5f7fe;
+    border-radius: 3px;
+    color: #666666;
+}
+
+.item-info2 {
+    color: #999999;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.news-item {
+    width: 380px;
+    height: 488px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #f5f7fe;
+    margin-right: 30px;
+    margin-bottom: 70px;
+}
+
+.news-img {
+    width: 380px;
+    height: 285px;
+    border-radius: 8px;
+}
+
+.news-item-info {
+    margin: 20px;
+}
+
+.news-title1 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 14px;
+    height: 52px;
+}
+
+.news-item-title {
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.news-title2 {
+    font-size: 14px;
+    color: #666666;
+    line-height: 20px;
+    height: 40px;
+    margin-bottom: 26px;
+}
+
+.news-item-title {
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.news-num {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #999999;
+    font-size: 12px;
+    line-height: 20px;
+}
